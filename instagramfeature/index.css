@@ -1,0 +1,42 @@
+.card {
+  height: 500px;
+  border: 1px solid rgb(0, 52, 131);
+  width: 380px;
+  margin: auto;
+}
+.full {
+  height: 500px;
+  width: 380px;
+  position: absolute;
+  display: none;
+}
+
+.storiyan {
+  height: 110px;
+  border-bottom: 1px solid rgb(100, 0, 0);
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+.storiyan::-webkit-scrollbar {
+  display: none;
+}
+.story {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border: 1px solid rgb(2, 5, 17);
+  margin-top: 8px;
+  margin-left: 5px;
+  display: inline-block;
+  overflow: hidden;
+  object-fit: cover;
+}
+.story img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

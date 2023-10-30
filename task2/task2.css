@@ -1,0 +1,35 @@
+* {
+  padding: 15px;
+}
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(25, 86, 112);
+  border-radius: 3%;
+  border: 1px solid rgb(40, 83, 146);
+  color: #ffff;
+}
+input {
+  height: 18px;
+  width: 300px;
+  border-radius: 10%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+input:focus {
+  border: 1px solid #007a99;
+}
+.box {
+  display: flex;
+  align-items: center;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}

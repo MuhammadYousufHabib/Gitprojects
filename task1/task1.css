@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #8464c0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container {
+  background: #f0e8ef;
+  min-height: 300px;
+  width: 450px;
+  border-radius: 5%;
+  border: 1px solid #8464c0;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#input {
+  margin-left: 80px;
+  margin-top: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10%;
+}
+
+.item {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin-left: 82px;
+  color: #8464c0;
+  font-size: large;
+  margin-top: 30px;
+}
+.bothsvgs {
+  display: flex;
+}
